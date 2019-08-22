@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Who's talking?</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower|Rock+Salt&display=swap'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="banner">
+    <h1>Who's talking?</h1>
+  </div>
+  <div class="white-bg">
+    <div class="flex">
+      <div class="box">
+        <div id="guyTime">00:00</div>
+        <button id="guy">a guy</button>
+      </div>
+      <div class="box">
+        <div id="interrupts">0</div>
+        <button id="interrupt">Interrupts</button>
+      </div>
+      <div class="box">
+        <div id="notGuyTime">00:00</div>
+        <button id="notGuy">not a guy</button>
+      </div>
+      <div class="footer">
+        <p>You may use the left (guy) and right (not a guy) arrow keys instead of the buttons.</p>
+        <p>A loving pastel tribute to Cathy Deng's <a href="http://arementalkingtoomuch.com/">Are men talking too much?</a></p>
+        <form>
+          <div>Theme color:</div>
+          <div>
+            <input type="radio" name="color" value="pink" id="pink" checked>
+            <label for="pink">pink</label>
+          </div>
+          <div>
+            <input type="radio" name="color" value="Aquamarine" id="aqua">
+            <label for="aqua">aqua</label>
+          </div>
+          <div>
+            <input type="radio" name="color" value="dark" id="night">
+            <label for="night">night</label>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>

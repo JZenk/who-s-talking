@@ -1,0 +1,68 @@
+:root {
+  --theme-color: #ffc0cb;
+  --theme-font: 'Indie Flower', cursive;
+  --theme-color-pressed: #ffb3be;
+  --theme-button-text: black;
+  --pink: #ffc0cb;
+  --pink-pressed: #ffb3be;
+  --aqua: #7fffd4;
+  --aqua-pressed: #66ffcc;
+  --night: #191970;
+  --night-pressed: #171769;
+  --happy-font: 'Indie Flower', cursive;
+  --angry-font: 'Rock Salt', cursive;
+}
+body, button {
+  font-family: var(--theme-font);
+  font-size: 2rem;
+  background-color: var(--theme-color);
+}
+h1 {
+  color: var(--theme-button-text);
+}
+button {
+  color: var(--theme-button-text);
+  border-radius: 1rem;
+  padding: .5rem;
+  box-shadow: 0 10px #777;
+  margin-bottom: 10px;
+}
+button:hover, button:active {
+  box-shadow: 0 7px #777;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+button.pressed {
+  background-color: var(--theme-color-pressed);
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+form div{
+  display: inline-block;
+}
+.flex, .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrapper {
+  margin: auto;
+  flex-direction: column;
+}
+.white-bg {
+  background-color: white;
+  border-radius: 4rem;
+}
+.box {
+  margin: 1rem;
+  padding: 1rem;
+}
+.banner {
+  color: white;
+  margin-left: 5rem;
+}
+.footer {
+  font-size: 1rem;
+  padding: 0 1rem 1rem;
+}
